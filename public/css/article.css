@@ -1,0 +1,11 @@
+.contentbase{ border-radius:1px;box-shadow: 1px 1px 1px #888888;    background-color: #fff;padding:2% 2% 2% 2%;margin-top:15px}
+
+
+.ds-post-main {position:relative;margin-bottom:10px;}
+.ds-avatar {box-sizing: content-box;z-index:2;position:absolute;top:20px;left:-20px;padding:5px;width:36px;height:36px; border-radius:50%; box-shadow:-1px 0 1px rgba(0,0,0,.15) inset; background:#E5E6D0 }
+.ds-avatar a {box-sizing: unset !important;display:block; padding:1px; width:32px; height:32px; border:1px solid #D6D7CE; border-radius:50%; background-color:#fff; -moz-transition:color 0.15s linear; -webkit-transition:color 0.15s linear;transition:color 0.15s linear;}
+.ds-avatar img {box-sizing: unset !important;display:block;width:32px; height:32px;border-radius:50%;box-shadow:0 1px 5px rgba(0, 0, 0, 0.22)}
+.ds-comment-body, .ds-avatar, .ds-avatar a,
+.ds-avatar img {-webkit-transition:.4s all ease-in-out;-moz-transition:.4s all ease-in-out;-o-transition:.4s all ease-in-out;-ms-transition:.4s all ease-in-out;transition:.4s all ease-in-out}
+.ds-post-main:hover .ds-avatar img {-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}
+.ds-comment-body {z-index:1;position:relative;left:0;background:#F8F8F8;padding:15px 15px 15px 47px;color:#696A52; border-radius:5px; box-shadow:0 1px 2px rgba(0,0,0,.15), 0 1px 0 rgba(255,255,255,.75) inset;}
